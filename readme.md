@@ -14,13 +14,16 @@ Is a syntax highlighter lexer for **GLSL** (OpenGL Shading Language) to use with
  - `.gs` → geometry shader
  - `.ts` → generic tessellation shader
 
+![](https://raw.githubusercontent.com/BrutPitt/glslCodeLite_lexers/master/screenShot.jpg)
+
+*Obsidian* theme, in ScreenShot, but syntax highlight is provided for all themes of **CodeLite**
+
+**Tested on **CodeLite** 14.0*
 
 ### How to Use
 To use it, just add the `glslCodeLite_lexers.json` file content to `lexers.json` file in your config **CodeLite** folder:
 
-**Windows**
-`{user}\AppData\Roaming\codelite\lexers\lexers.json`
+**Windows**: `{user}\AppData\Roaming\codelite\lexers\lexers.json`
 
-**Linux**
-`~/.codelite/lexers/lexers.json`
+**Linux**: `~/.codelite/lexers/lexers.json`
 
