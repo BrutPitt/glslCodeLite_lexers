@@ -1,6 +1,8 @@
 # glslCodeLite_lexers
 
-Is a syntax highlighter lexer for **GLSL** (OpenGL Shading Language) to use with **CodeLite** cross platform IDE: it add syntax highlighting to following source code file extensions:
+Is a syntax highlighter lexer for **GLSL** (OpenGL Shading Language) to use with/in **CodeLite** cross platform IDE.
+
+It covers until ver. 4.6 of **GLSL** and adds syntax highlighting to following file extensions:
 
  - `.glsl` → generic shader
  - `.vert` → vertex shader
@@ -14,14 +16,16 @@ Is a syntax highlighter lexer for **GLSL** (OpenGL Shading Language) to use with
  - `.gs` → geometry shader
  - `.ts` → generic tessellation shader
 
+
+
 ![](https://raw.githubusercontent.com/BrutPitt/glslCodeLite_lexers/master/screenShot.jpg)
 
-*Obsidian* theme, in ScreenShot, but syntax highlight is provided for all themes of **CodeLite**
+An *Obsidian* theme example, in ScreenShot, but syntax highlight is provided for all **CodeLite** themes
 
-**Tested on **CodeLite** 14.0*
+**Tested in **CodeLite** 14.0*
 
 ### How to Use
-To use it, just add the `glslCodeLite_lexers.json` file content to `lexers.json` file in your config **CodeLite** folder:
+To use it, just add the `glslCodeLite_lexers.json` file content to `lexers.json` file in your config **CodeLite** folder, following/paying attention to `json` syntax:
 
 **Windows**: `{user}\AppData\Roaming\codelite\lexers\lexers.json`
 
